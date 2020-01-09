@@ -1,0 +1,276 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p{
+    background-color: lavender !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+#save {
+    background-color: lavender !important;
+    color: rgb(101, 101, 228) !important;
+    border: 3px solid rgb(101, 101, 228) !important;
+    border-radius: 3000px !important;
+    height: 53px !important;
+    width: 20% !important;
+    position: absolute;
+    bottom: -130px;
+    right: 40%;
+    font-family: josefin-sans, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 25px !important;
+    text-shadow: 3px 3px lightblue;
+}
+
+#save:hover {
+    background-color: rgb(101, 101, 228) !important;
+    color: white !important;
+    text-shadow: 2px 2px lightblue;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#tabs {
+    visibility: hidden;
+    border: none !important;
+}
+
+.nav {
+    width: 100%;
+    background-color: turquoise;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.nav span {
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    color: black;
+    text-shadow: 7px 7px greenyellow, 8px 8px black;
+    margin: 0 0 0 0;
+    padding-bottom: 0;
+}
+
+.nav span:hover {
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    color: greenyellow;
+    text-shadow: 7px 7px black, 9px 9px greenyellow;
+    margin: 0 0 0 0;
+    padding-bottom: 0;
+}
+
+li a {
+    font-family: gilbert, sans-serif !important;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.ui-tabs-nav {
+    width: 100%;
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid rgb(59, 112, 107) !important;
+    padding-bottom: 6px !important;
+}
+
+.ui-tabs-tab {
+    border: none !important;
+}
+
+#t2 {
+    position: absolute;
+    right: 110.3px !important;
+    margin-top: 6.4px;
+}
+
+#t3 {
+    position: absolute;
+    right: 0 !important;
+    margin-top: 6.4px;
+}
+
+.hold {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.que {
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    height: 70px;
+    border: 1px solid grey;
+    margin-right: 5px;
+    margin-left: 5px;font-family: acumin-pro, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    background: white;
+}
+
+.ij {
+    font-size: .1px;
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 22px;
+}
+
+hr {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    visibility: hidden;
+}
+
+.ui-tabs-active {
+    background-color: rgb(101, 101, 228) !important;
+}
+
+.qbox {
+    visibility: hidden;
+    font-size: 25px;
+    font-family: adobe-handwriting-tiffany, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    word-wrap: break-word;
+    background-color: whitesmoke;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.Q {
+    font-size: 45px;
+    font-family: gilbert-color, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+}
+
+.undertext {
+    visibility: hidden;
+    font-family: josefin-sans, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 25px !important;
+    color: greenyellow !important;
+    text-shadow: 2px 2px black !important;
+}
+
+.timer {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: turquoise;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px grey;
+    color: white;
+    font-family: josefin-sans, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 25px;
+}
+
+#playbtn {
+    align-self: center;
+    width: 30%;
+    height: 30%;
+}
+
+.playbtndiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+    padding: 15px;
+    border: none !important;
+    background-color: white;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.ui-tab:hover {
+    background-color: lavender !important;
+}
+
+.ui-tabs-active:hover {
+    background-color: rgb(101, 101, 228) !important;
+}
+
+.khatam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    color: black;
+    text-shadow: 7px 7px greenyellow, 8px 8px black;
+    margin: 0 0 0 0;
+    padding-bottom: 0;
+    background-color: rgb(179, 176, 176); 
+}
+
+.ui-accordion-header-active {
+    background-color: rgb(101, 101, 228) !important;
+}
+
+.ui-accordion-header:hover {
+    background-color: lavender !important;
+    color: rgb(101, 101, 228) !important
+}
+
+.ui-accordion-header-active:hover {
+    background-color: rgb(101, 101, 228) !important;
+    color: white !important
+}
+
+#tabs-3 h1{
+    text-align: center;
+    font-family: josefin-sans, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 35px !important;
+    color: hotpink;
+}
+
+.butt {
+    font-family: josefin-sans, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 20px !important;
+    padding: 3px 3px 3px 3px;
+    padding-top: 0 !important;
+    width: 20%;
+    background-color: lightcoral;
+}
+
+.butt:hover {
+
+    background-color: white;
+    color: lightcoral;
+    border: 2px solid lightcoral;
+}
